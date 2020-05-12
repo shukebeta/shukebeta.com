@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width = device-width" />
+    <title>shukebeta</title>
+    <style type="text/css">
+      html { background-color: #fdf6e3; color: #657b83; }
+      body { font-family: sans-serif; font-size: 1.0em; max-width: 480px; margin: auto; }
+      div { margin: 7px; }
+      img { width: 100%; border-radius: 5px; }
+      ul { margin: 0; margin-top: 10px; padding: 0; }
+      li { display: block; float: left; margin: 0px; width: 25%; text-align: center; }
+      a { color: #aaaaaa; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <div><img src="portrait.JPG" alt="" /></div>
+    <ul>
+      <li><a href="https://twitter.com/shukebeta" title="@shukebeta">Twitter</a></li>
+      <li><a href="https://github.com/shukebeta">GitHub</a></li>
+      <li><a href="https://blog.shukebeta.com">Blog</a></li>
+      <li><a id="email" href="mailto:weizhong2004@gmail.com" title="weizhong2004@gmail.com">Email</a></li>
+    </ul>
+    <script type="text/javascript">
+      var link = document.getElementById('email');
+      link.href = link.href.replace(/NOSPAM/,'');
+      link.title = link.title.replace(/NOSPAM/,'');
+    </script>
+  </body>
+</html>
